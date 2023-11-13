@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 //import contactImg from "../img/contact-img.svg";
 import 'animate.css';
-//import TrackVisibility from 'react-on-screen';
+import TrackVisibility from 'react-on-screen';
 
 export const Contact = () => {
   const formInitialDetails = {
@@ -48,11 +48,24 @@ export const Contact = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
+          {/* <div className="alamat">
+                   <div className="alamat2">
+                    <Row>
+                     <Col>
+                         <p>My address is on Jl.Beruang Raya No. 1.<br /> The following is a map display of my home address</p>
+                       </Col>
+                     </Row>
+                     </div>
+           
+                  </div> */}
           <div class="mapouter">
             <div class="gmap_canvas">
               <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=400&amp;height=300&amp;hl=en&amp;q=-7.003519, 110.451475&amp;t=h&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
                 </iframe>
+                
                 </div>
+                
+                
               {/* <style>
                 .mapouter{position:relative;text-align:right;width:100%;height:300px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:300px;}.gmap_iframe {height:300px!important;}
               </style> */}
@@ -63,23 +76,26 @@ export const Contact = () => {
               }
             </TrackVisibility> */}
           </Col>
-          {/* <Col size={12} md={6}>
+          <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Get In Touch</h2>
+                <h2>My address</h2>
                 <form onSubmit={handleSubmit}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
+                      {/* <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} /> */}
+                      <p>Jl.Beruang Raya No.1 Semarang</p>
                     </Col>
-                    <Col size={12} sm={6} className="px-1">
+                    {/* <Col size={12} sm={6} className="px-1">
                       <input type="text" value={formDetails.lasttName} placeholder="Last Name" onChange={(e) => onFormUpdate('lastName', e.target.value)}/>
-                    </Col>
+                    </Col> */}
                     <Col size={12} sm={6} className="px-1">
-                      <input type="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} />
+                      {/* <input type="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} />
+                       */}
+                       <p>ronibimo5@gmail.com</p>
                     </Col>
-                    <Col size={12} sm={6} className="px-1">
+                    {/* <Col size={12} sm={6} className="px-1">
                       <input type="tel" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)}/>
                     </Col>
                     <Col size={12} className="px-1">
@@ -91,13 +107,15 @@ export const Contact = () => {
                       <Col>
                         <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
                       </Col>
-                    }
+                    } */}
                   </Row>
                 </form>
               </div>}
             </TrackVisibility>
-          </Col> */}
-        </Row>
+          </Col>
+         
+          </Row>
+        
       </Container>
     </section>
   )
