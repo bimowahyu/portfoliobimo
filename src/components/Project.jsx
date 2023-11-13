@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../img/produk.jpg";
-import projImg2 from "../img/absensi.jpg";
+import projImg2 from "../img/project.png";
 import projImg3 from "../img/project-img3.png";
 import colorSharp2 from "../img/color-sharp2.png";
 import 'animate.css';
