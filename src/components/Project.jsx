@@ -23,7 +23,7 @@ export const Projects = () => {
     },
     {
       title: "Housing surveyor",
-      description: "Goverment project",
+      description: "Goverment project using express react mysql",
       imgUrl: projImg4,
     }
     // {
