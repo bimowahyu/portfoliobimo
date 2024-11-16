@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../img/sstoko.png";
 import projImg2 from "../img/project.png";
 import projImg3 from "../img/project-img3.png";
+import projImg4 from "../img/project4.png";
 import colorSharp2 from "../img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -19,12 +20,12 @@ export const Projects = () => {
       title: "worker's attendance",
       description: "project uses CI4",
       imgUrl: projImg2,
+    },
+    {
+      title: "Housing surveyor",
+      description: "Goverment project",
+      imgUrl: projImg4,
     }
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg3,
-    // },
     // {
     //   title: "Business Startup",
     //   description: "Design & Development",
@@ -62,6 +63,9 @@ export const Projects = () => {
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                    </Nav.Item>
+                     <Nav.Item>
+                      <Nav.Link eventKey="four">Tab 4</Nav.Link>
                     </Nav.Item>
                   </Nav> */}
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
