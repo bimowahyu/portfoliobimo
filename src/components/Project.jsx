@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../img/sstoko.png";
 import projImg2 from "../img/project.png";
 import projImg3 from "../img/project-img3.png";
-import projImg4 from "../img/project4.png";
+import projImg4 from "../img/sidalimah.jpg";
 import projImg5 from "../img/project5.png";
 import colorSharp2 from "../img/color-sharp2.png";
 import 'animate.css';
