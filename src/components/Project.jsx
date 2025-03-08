@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../img/sstoko.png";
-import projImg2 from "../img/project.png";
+import projImg2 from "../img/face.png";
 import projImg3 from "../img/project-img3.png";
 import projImg4 from "../img/sidalimah.jpg";
 import projImg5 from "../img/project5.png";
@@ -18,8 +18,8 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      title: "worker's attendance",
-      description: "project uses CI4",
+      title: "attendance face recognition",
+      description: "project uses express react mysql face-api",
       imgUrl: projImg2,
     },
     {
