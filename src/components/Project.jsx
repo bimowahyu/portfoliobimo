@@ -5,6 +5,7 @@ import projImg2 from "../img/face.png";
 import projImg3 from "../img/project-img3.png";
 import projImg4 from "../img/sidalimah.jpg";
 import projImg5 from "../img/project5.png";
+import projImg6 from "../img/kasir.png";
 import colorSharp2 from "../img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -31,12 +32,12 @@ export const Projects = () => {
       title: "Worker's attendance",
       description: "attandance using location and camera build with express react mysql",
       imgUrl: projImg5,
-    }
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg1,
-    // },
+    },
+    {
+      title: "Point Of Sales",
+      description: "express react mysql and flutter",
+      imgUrl: projImg6,
+    },
     // {
     //   title: "Business Startup",
     //   description: "Design & Development",
